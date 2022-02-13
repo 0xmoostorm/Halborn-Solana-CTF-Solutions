@@ -1,0 +1,18 @@
+[package]
+name = "pocs"
+version = "0.1.0"
+edition = "2018"
+
+
+[dependencies]
+poc-framework = { version = "0.1.2" }
+ctf-solana-farm = { path = "../ctf", features = ["no-entrypoint"] }
+
+solana-program = "1.8.2"
+borsh = "0.9.1"
+borsh-derive = "0.9.1"
+spl-token = { version = "*", features = ["no-entrypoint"] }
+
+owo-colors = "3.1.0"
+
+[lib]
